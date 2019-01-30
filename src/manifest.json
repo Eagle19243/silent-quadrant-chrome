@@ -15,6 +15,10 @@
       "js": ["inject.min.js"]
     }
   ],
+  "web_accessible_resources": [
+    "images/logo.png",
+    "images/spyglass.png"
+  ],
   "homepage_url": "https://github.com/Eagle19243/silent-quadrant-chrome#readme",
   "offline_enabled": false
 }

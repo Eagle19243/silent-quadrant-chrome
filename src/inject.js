@@ -26,8 +26,6 @@ import "./style.css";
 vex.defaultOptions.className = "vex-theme-wireframe";
 vex.defaultOptions.escapeButtonCloses = false;
 vex.defaultOptions.overlayClosesOnClick = false;
-vex.dialog.buttons.YES.text = "I Understand";
-
 
 /**
  * Globals
@@ -237,14 +235,14 @@ function protectPasswordInput(evt) {
         if (data[0].indexOf(shortHash) === 0) {
           var message = [
             '<dic class="silent-quadrant-dialog-content">',
-            '<img src="' + chrome.extension.getURL('images/logo.png') + '" alt="Silent Quadrant Logo" />',
-            '<label class="silent-quadrant-title">Unsafe Password Detected</label><br>',
-            '<p>The password you entered has been found in' + numberFormatter(parseInt(data[1]))  + 'data breaches and is not safe to use.</p>',
+            '<img src="' + chrome.extension.getURL('images/logo.png') + '" alt="Silent Quadrant Logo" class="silent-quadrant-logo1" />',
+            '<div class="silent-quadrant-title">Unsafe Password Detected</div>',
+            '<p>The password you entered has been found in ' + numberFormatter(parseInt(data[1]))  + ' data breaches and is not safe to use.</p>',
             '<p>A password that has been involved in a data breach is easily accessible to attackers. Please change this password wherever you use it so it can not be leveraged to gain access to your account(s).</p>',
             '<p>This notice will not display again for the duration of this session.</p>',
-            '<button class="silent-quadrant-dismiss" onclick="vex.closeAll();">I Understand</button>',
-            '<img src="' + chrome.extension.getURL('images/spyglass.png') + '" alt="Logo" />',
-            '<a href="https://haveibeenpwned.com/" title="haveibeenpwned">Have I Been Pwned?</a>',
+            '<button class="silent-quadrant-dismiss">I Understand</button>',
+            '<img src="' + chrome.extension.getURL('images/spyglass.png') + '" alt="Logo" class="silent-quadrant-logo2" />',
+            '<div class="silent-quadrant-credit"><a href="https://haveibeenpwned.com/" title="haveibeenpwned" target="_blank">Have I Been Pwned?</a></div>',
             '</div>'
           ].join('');
 

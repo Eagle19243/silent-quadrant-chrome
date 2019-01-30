@@ -1,8 +1,56 @@
+.vex-content {
+  background: #000 !important;
+}
 .vex-dialog-message {
   font-weight: bold;
+}
+.vex-dialog-input {
+  display: none !important;
+}
+.vex-dialog-buttons {
+  display: none !important;
+}
+.silent-quadrant-dialog-content {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
   text-align: center;
 }
-
-.vex-dialog-input p {
+.silent-quadrant-dialog-content p {
   margin-bottom: 1em;
+  text-align: left;
 }
+.silent-quadrant-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.silent-quadrant-dismiss {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #575853;
+  border-width: 1px;
+}
+.silent-quadrant-credit {
+  text-align: center;
+  font-size: 13px;
+}
+.silent-quadrant-credit a {
+  color: #fff !important;
+}
+.silent-quadrant-logo1 {
+  height: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+.silent-quadrant-logo2 {
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+}
+
