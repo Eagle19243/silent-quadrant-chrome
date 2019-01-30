@@ -25,10 +25,16 @@ necessary, we can all help make the web a safer place &lt;3
 
 ## How to Use Silent Quadrant Password Protection
 
-Just head on over to the Chrome webstore and install Silent Quadrant Password Protection!
-
-If you like it, be sure to leave a review! =)
-
+1. Download source code.
+2. Open terminal, navigate to the downloaded repository and run commands below:
+```
+npm install
+npm run build
+```
+After run these commands, you will see `dist` folder generated.
+3. Open `chrome://extensions/` in your Google Chrome, and enable `Developer mode`
+4. Click `Load unpacked`, and then choose `dist` folder in the presented dialog.
+5. Now you are able to use Silent Quadrant Password Protection Secure Extension.
 
 ## Is Silent Quadrant Password Protection Secure?
 
