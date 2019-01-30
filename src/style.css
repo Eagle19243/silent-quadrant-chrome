@@ -11,46 +11,48 @@
   display: none !important;
 }
 .silent-quadrant-dialog-content {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  text-align: center;
+  color: #fff !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  text-align: center !important;
 }
 .silent-quadrant-dialog-content p {
-  margin-bottom: 1em;
-  text-align: left;
+  margin-bottom: 1em !important;
+  text-align: left !important;
 }
 .silent-quadrant-title {
-  text-align: center;
-  font-weight: 700;
-  margin-bottom: 15px;
+  text-align: center !important;
+  font-weight: 700 !important;
+  margin-bottom: 15px !important;
 }
 .silent-quadrant-dismiss {
-  margin-top: 20px;
-  width: 100%;
-  padding: 10px;
-  background: #575853;
-  border-width: 1px;
+  margin-top: 20px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  padding: 10px !important;
+  background: #575853 !important;
+  border-width: 1px !important;
 }
 .silent-quadrant-credit {
-  text-align: center;
-  font-size: 13px;
+  text-align: center !important;
+  font-size: 13px !important;
 }
 .silent-quadrant-credit a {
   color: #fff !important;
 }
 .silent-quadrant-logo1 {
-  height: 19px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-bottom: 20px;
+  height: 19px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+  margin-bottom: 35px !important;
 }
 .silent-quadrant-logo2 {
-  height: 60px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  display: block;
+  height: 60px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 20px !important;
+  display: block !important;
 }
 
