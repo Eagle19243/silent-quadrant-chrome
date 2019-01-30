@@ -1,4 +1,4 @@
-# silent-quadrant-chrome
+# Silent Quadrant Password Protection
 
 ## What is Silent Quadrant Password Protection?
 
