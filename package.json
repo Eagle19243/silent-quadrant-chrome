@@ -1,6 +1,6 @@
 {
-  "name": "passprotect-chrome",
-  "version": "0.1.8",
+  "name": "silent-quadrant-chrome",
+  "version": "1.0.0",
   "description": "Stop using bad passwords.",
   "dependencies": {
     "js-sha1": "^0.6.0"
@@ -14,11 +14,11 @@
   },
   "scripts": {
     "build": "rm -rf dist; webpack --config webpack.config.js",
-    "package": "rm *.zip; zip -r passprotect.zip dist"
+    "package": "rm *.zip; zip -r silent-quadrant.zip dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oktasecuritylabs/passprotect-chrome.git"
+    "url": "git+https://github.com/Eagle19243/silent-quadrant-chrome.git"
   },
   "keywords": [
     "password",
@@ -29,10 +29,9 @@
     "login",
     "breach"
   ],
-  "author": "Randall Degges",
-  "license": "MIT",
+  "author": "Eagle19243",
   "bugs": {
-    "url": "https://github.com/oktasecuritylabs/passprotect-chrome/issues"
+    "url": "https://github.com/Eagle19243/silent-quadrant-chrome/issues"
   },
-  "homepage": "https://github.com/oktasecuritylabs/passprotect-chrome#readme"
+  "homepage": "https://github.com/Eagle19243/silent-quadrant-chrome#readme"
 }
