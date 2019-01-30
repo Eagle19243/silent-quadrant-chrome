@@ -1,10 +1,5 @@
 # silent-quadrant-chrome
 
-**Stop using bad passwords.**
-
-![Silent Quadrant Password Protection demo](https://github.com/Eagle19243/silent-quadrant-chrome/blob/master/assets/silent-quadrant.gif)
-
-
 ## What is Silent Quadrant Password Protection?
 
 Silent Quadrant Password Protection is a Chrome extension that you can drop into any web page which dramatically improves the security of users accessing your website.
